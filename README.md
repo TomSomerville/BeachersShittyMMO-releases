@@ -1,32 +1,40 @@
-# BeachersShittyMMO-releases
-Tester onboarding then collapses to:
+# Beacher's Shitty MMO — Alpha Client
 
-Make a folder for the game (e.g. C:\Games\BeachersShittyMMO).
+A WoW-inspired indie MMORPG built in Godot 4. This repo hosts the **game client downloads and update feed** for closed alpha testers — the game source lives elsewhere.
 
-Download the single install.bat from the release page into it and double-click. It pulls all 7 client files from releases/latest/download/ with retries, creates a "Beachers Shitty MMO" --launcher shortcut in the folder and on the Desktop, and starts the launcher.
+---
 
-If SmartScreen Pops: SmartScreen "More info → Run anyway" on first exe launch, register an account, Play.
+## 🚀 Install (one file, one double-click)
 
-If a download dies mid-way they just run the bat again. And note the bat always pulls from releases/latest, so the same file keeps working for every future version — no need to ever update the link you send testers.
+1. **Make a folder** for the game, e.g. `C:\Games\BeachersShittyMMO`.
+2. **Download [`install.bat`](https://github.com/TomSomerville/BeachersShittyMMO-releases/releases/latest/download/install.bat)** into that folder.
+3. **Double-click it.** It downloads the client (~1 GB), creates a **Beachers Shitty MMO** shortcut in the folder and on your Desktop, and starts the launcher.
 
+> ⚠️ **Always start the game from the shortcut — never the `.exe` directly.**
+> The shortcut runs the launcher, which keeps your install up to date automatically.
 
+## 🎮 First launch
 
-Download "install.bat" from the latest release:
+1. If Windows SmartScreen appears: **More info → Run anyway** (the build is unsigned — normal for an alpha).
+2. In the launcher, **register** a username and password.
+3. **Log in**, create a character, and play.
 
-Releases: https://github.com/TomSomerville/BeachersShittyMMO-releases/releases
+## 🔄 Updates
 
-Release v0.1.0: https://github.com/TomSomerville/BeachersShittyMMO-releases/releases/tag/v0.1.0
+Nothing to do — every time you open the launcher it checks for a new version and downloads **only the files that changed** (usually a small ~33 MB patch, not the full client).
 
-Direct link to v0.1.0 install.bat: https://github.com/TomSomerville/BeachersShittyMMO-releases/releases/download/v0.1.0/install.bat
+## 🛠 Troubleshooting
 
+| Problem | Fix |
+|---|---|
+| Download died mid-install | Run `install.bat` again — finished files are kept, broken ones re-download. |
+| Game looks broken after a patch | Open the launcher again — it re-verifies every file against the update manifest. |
+| Can't connect / stuck at login | The server is probably down — ping the dev. |
 
+## 📦 Manual download
 
-Run installer.bat which will download the launcher and game files and create a game shortcut.
+Prefer to grab files yourself? Everything is on the [latest release](https://github.com/TomSomerville/BeachersShittyMMO-releases/releases/latest) — you need the `.exe`, all four `.pck` files, and both `.dll` files in one folder, then run the exe with `--launcher`.
 
+---
 
-
-RUN THE SHORTCUT, NOT THE EXE!
-
-
-
-The launcher will allow you to register a username and password. After you register you may log in and create a character.
+*Closed alpha — expect breaking changes, character wipes, and rough edges. That's the fun part.*
