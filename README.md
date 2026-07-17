@@ -1,5 +1,15 @@
 # BeachersShittyMMO-releases
-Installation Instrcutions:
+Tester onboarding then collapses to:
+
+Make a folder for the game (e.g. C:\Games\BeachersShittyMMO).
+
+Download the single install.bat from the release page into it and double-click. It pulls all 7 client files from releases/latest/download/ with retries, creates a "Beachers Shitty MMO" --launcher shortcut in the folder and on the Desktop, and starts the launcher.
+
+If SmartScreen Pops: SmartScreen "More info → Run anyway" on first exe launch, register an account, Play.
+
+If a download dies mid-way they just run the bat again. And note the bat always pulls from releases/latest, so the same file keeps working for every future version — no need to ever update the link you send testers.
+
+
 
 Download "install.bat" from the latest release:
 
