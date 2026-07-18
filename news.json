@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.6",
+                     "date":  "2026-07-18",
+                     "kind":  "patch",
+                     "body":  "Maintenance build. No gameplay changes since v0.1.5 - this is a rebuild from current source with improved build and server-hosting tooling behind the scenes. If you are already on v0.1.5, nothing in game will look or play differently."
+                 },
+                 {
                      "title":  "Patch v0.1.5",
                      "date":  "2026-07-17",
                      "kind":  "patch",
