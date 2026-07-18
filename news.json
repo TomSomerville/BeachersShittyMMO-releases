@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.7",
+                     "date":  "2026-07-18",
+                     "kind":  "patch",
+                     "body":  "Numerous Bug Fixes From Alpha Playtest 1:\\nMail fee → 1c, was 50c\\nDueling now sets the combat flag, so passive regen using in combat mechanics.\\nRequired_level was never enforced on any cast (Only on learning the spell). Spells should not check level at cast time and error out if you d not meet level requirements.\\nAutoattack keybind legacy codeRemoved from project.godot, GROUPS, LABELS\\nStamina wiringColumn + migration + AbilityEditor field + 10/swing on attack \u0026 wand\\nChat tabs overhaul, more settings and chat channels can be turns on and off at will.\\nLoot + crafting chat streams implimented."
+                 },
+                 {
                      "title":  "Patch v0.1.6",
                      "date":  "2026-07-18",
                      "kind":  "patch",
