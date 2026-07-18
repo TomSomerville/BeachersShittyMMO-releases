@@ -1,16 +1,22 @@
 {
-  "news": [
-    {
-      "title": "0.1.1 — First Closed Alpha Release",
-      "date": "2026-07-17",
-      "kind": "patch",
-      "body": "The first closed alpha build is live — welcome, Jake! This release ships the full launcher pipeline: auto-update with per-file hash checking, split asset packs so patches only download what changed (usually ~33 MB), and this news feed you're reading right now. Register an account in the launcher, make a character, and go break things — that's the job."
-    },
-    {
-      "title": "Welcome to Beacher's Shitty MMO",
-      "date": "2026-07-17",
-      "kind": "news",
-      "body": "A WoW-inspired indie MMORPG built in Godot 4 — manual economy, skill scrolls instead of trainers, and absolutely no auction house. In active development: expect breaking changes, wipes, and rough edges between patches. Feedback welcome."
-    }
-  ]
+    "news":  [
+                 {
+                     "title":  "Patch v0.1.5",
+                     "date":  "2026-07-17",
+                     "kind":  "patch",
+                     "body":  "Spell scrolls: abilities are now learned from scrolls. The Skill Trainer stocks Scroll: Heal, Scroll: Fireball, and Scroll: Leaping Strike. Reading a scroll permanently teaches you that spell and consumes the scroll. Scrolls are class-restricted - a Warrior can\u0027t learn Fireball. Item tooltips now clearly show which ability a scroll teaches and which classes can use it."
+                 },
+                 {
+                     "title":  "0.1.1 — First Closed Alpha Release",
+                     "date":  "2026-07-17",
+                     "kind":  "patch",
+                     "body":  "The first closed alpha build is live — welcome, Jake! This release ships the full launcher pipeline: auto-update with per-file hash checking, split asset packs so patches only download what changed (usually ~33 MB), and this news feed you\u0027re reading right now. Register an account in the launcher, make a character, and go break things — that\u0027s the job."
+                 },
+                 {
+                     "title":  "Welcome to Beacher\u0027s Shitty MMO",
+                     "date":  "2026-07-17",
+                     "kind":  "news",
+                     "body":  "A WoW-inspired indie MMORPG built in Godot 4 — manual economy, skill scrolls instead of trainers, and absolutely no auction house. In active development: expect breaking changes, wipes, and rough edges between patches. Feedback welcome."
+                 }
+             ]
 }
