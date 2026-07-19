@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.8",
+                     "date":  "2026-07-18",
+                     "kind":  "patch",
+                     "body":  "Character sheet now shows a live 3D preview of your character wearing their gear. Attack and Loot Nearby are granted to every class (existing characters pick them up on login); wizards start with Wand. Recipe scrolls now use the read-cast bar."
+                 },
+                 {
                      "title":  "Patch v0.1.7",
                      "date":  "2026-07-18",
                      "kind":  "patch",
