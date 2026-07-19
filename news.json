@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.9",
+                     "date":  "2026-07-19",
+                     "kind":  "patch",
+                     "body":  "Combat overhaul: attacks can now miss, be dodged, parried, blocked (with a shield), or land as reduced glancing blows against higher-level foes. New character sheet: the two stat panels are now dropdowns across Base Stats, Melee, Defense, and Spell, with computed Damage, Spell Damage, and dodge/parry/block chances."
+                 },
+                 {
                      "title":  "Patch v0.1.8",
                      "date":  "2026-07-18",
                      "kind":  "patch",
