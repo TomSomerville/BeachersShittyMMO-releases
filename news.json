@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.12",
+                     "date":  "2026-07-20",
+                     "kind":  "patch",
+                     "body":  "New: optional Threat Meter HUD window (toggle in Settings -\u003e Interface). World bosses now announce server-wide and reward every participant. Spell power split into spell_damage/spell_healing with the first talents live. King Slime boss tuning. NOTE: talents currently grant 3 points per level (from level 2) for alpha testing only -- this will be reduced later."
+                 },
+                 {
                      "title":  "Patch v0.1.11",
                      "date":  "2026-07-20",
                      "kind":  "patch",
