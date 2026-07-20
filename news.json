@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.10",
+                     "date":  "2026-07-19",
+                     "kind":  "patch",
+                     "body":  "Added the first boss - King Slime! A giant yellow slime now lurks in Roumen. He spits poison at his second-most-hated target and slams the ground with Mass Slime - dodge the red circle or get splatted, slowed, and left dripping poison (the new Slimed debuff). Push him below 10% health and he enrages: faster spits and much harder hits. Bring friends."
+                 },
+                 {
                      "title":  "Patch v0.1.9",
                      "date":  "2026-07-19",
                      "kind":  "patch",
