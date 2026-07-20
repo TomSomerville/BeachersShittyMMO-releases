@@ -1,6 +1,12 @@
 {
     "news":  [
                  {
+                     "title":  "Patch v0.1.11",
+                     "date":  "2026-07-20",
+                     "kind":  "patch",
+                     "body":  "King Slime boss encounter: adds the SlimeBlob projectile and wires up the boss\u0027s abilities and multi-target spells."
+                 },
+                 {
                      "title":  "Patch v0.1.10",
                      "date":  "2026-07-19",
                      "kind":  "patch",
